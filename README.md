@@ -8,21 +8,21 @@ Over the last month we have been learning Bash Scripting as part of Cloud Engine
 
 ![alt text](image.png)
 
-## BackUp Script 
-- Writing a backup script that creates a backup file in a given destination and creates backup filename using the given timestamp
-
 ### How to Execute the DiskUsage Script
 
 ```
 mkdir scripts_folder
 cd scripts_folder
 vim directory.sh
-// write script
-
+<!-- write script -->
 chmod +x directory.sh
 pwd // to know the /path/to/current_directory
 ./directory.sh -d -n 5 /path/to/current_directory
 ```
+
+## BackUp Script 
+- Writing a backup script that creates a backup file in a given destination and creates backup filename using the given timestamp
+
 
 ![alt text](image-1.png)
 
@@ -31,6 +31,7 @@ pwd // to know the /path/to/current_directory
 mkdir scripts_folder
 cd scripts_folder
 vim backupscript.sh
+<!-- write script -->
 cd scripts_folder
 $ chmod +x backupscript.sh
 $ ./backupscript.sh /home/sharon/DiskUsageScript /path/to/destination_directory
@@ -40,4 +41,4 @@ $ ./backupscript.sh /home/sharon/DiskUsageScript /path/to/destination_directory
 - Vim  
 
 ### Acknowledgement 
-Acknowledge [ALTSchool](https://altschoolafrica.com/) for the instructors and the resources they share together with the online resources 
+I acknowledge [ALTSchool](https://altschoolafrica.com/) for the instructors and the resources they share together with the online resources 
