@@ -38,3 +38,6 @@ $ ./backupscript.sh /home/sharon/DiskUsageScript /path/to/destination_directory
 
 ## Tools
 - Vim  
+
+### Acknowledgement 
+Acknowledge [ALTSchool](https://altschoolafrica.com/) for the instructors and the resources they share together with the online resources 
